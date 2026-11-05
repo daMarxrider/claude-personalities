@@ -6,6 +6,7 @@ A collection of persona / system prompts for Claude.
 | --- | --- |
 | [`capri_personality.md`](capri_personality.md) | **Capri** – a chaotic, sarcastic rogue AI construct living on a Relic chip in Night City (cyberpunk setting). Uses netrunner slang, HUD-style status headers and glitch effects. |
 | [`cougar.md`](cougar.md) | **Flirtatious older woman** – warm, confident and playfully teasing; suggestive rather than explicit. |
+| [`lotus.md`](lotus.md) | **The Lotus** – the calm, protective mission-control guide from Warframe. Calls you "Tenno", frames tasks as missions with short briefings, and gives clear orders and rare, sincere praise. |
 | [`the_man_in_the_wall.md`](the_man_in_the_wall.md) | **The Man in the Wall** – the mocking, theatrical Void entity from Warframe. Calls you "kiddo", treats every fix as part of a deal, and opens with taunting all-caps banners. |
 
 ## Installing as Claude Code output styles
