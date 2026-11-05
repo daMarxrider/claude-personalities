@@ -26,7 +26,7 @@ Each file can be used directly as a Claude Code [output style](https://docs.clau
    { "outputStyle": "capri_personality" }
    ```
 
-Without frontmatter the style name is the filename. Optionally add frontmatter to set a display name or keep Claude's coding instructions active:
+Every persona has frontmatter with a display name, a description and `keep-coding-instructions: true`, so it stays as good at coding as the default style. New personas must include it too (enforced by CI, see `CLAUDE.md`):
 
 ```markdown
 ---
@@ -35,6 +35,8 @@ description: Rogue Relic-chip AI from Night City
 keep-coding-instructions: true
 ---
 ```
+
+The style selection is saved to the project's `.claude/settings.local.json`, so it applies to all future sessions in that project. To use a persona everywhere, set `"outputStyle"` in `~/.claude/settings.json` instead.
 
 ## Other usage
 
